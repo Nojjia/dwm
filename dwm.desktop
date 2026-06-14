@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.5
+Name=dwm
+GenericName=Window Manager
+Comment=Dynamic Window Manager
+Icon=dwm
+#DBusActivatable
+Exec=$HOME/Projects/Development/my-system/dwm/dwm.sh
+PrefersNonDefaultGPU=true
