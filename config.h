@@ -91,7 +91,7 @@ static const char *mediaNext[] = { "playerctl", "next", NULL };
 
 static const Key keys[] = {
 	/* modifier             key				function        argument */
-	{ MODKEY,		XK_Escape,				spawn,          {.v = menu } },
+	{ MODKEY,		XK_Escape,			spawn,          {.v = menu } },
 	{ MODKEY|ShiftMask,	XK_Return,			spawn,          {.v = terminal } },
 	{ MODKEY,		XK_e,				spawn,		{.v = fileManager } },
 
